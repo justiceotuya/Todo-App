@@ -19,6 +19,8 @@ $("input").keypress(function (e) {
         
         //clearing value from input box
         $("input").val(" ");
+    
+    
     }
     
 });
