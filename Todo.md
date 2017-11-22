@@ -1,4 +1,4 @@
-##TODO APP
+**TODO APP**
 
 This is a Todo app, created by Justice Otuya while learning JavaScript
 
