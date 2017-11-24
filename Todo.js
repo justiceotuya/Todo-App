@@ -4,7 +4,7 @@ $("ul").on("click", "li", function(){
     
 });
 
-$( "li" ).sortable();
+
 
 //fading and deleting a todo item
 $("ul").on("click","span", function(event){
