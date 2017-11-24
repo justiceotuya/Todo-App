@@ -1,4 +1,4 @@
-h1{
+h1#main{
     background: #7a0f7a;
     color: white;
     margin: 0;
@@ -7,15 +7,71 @@ h1{
     font-size: 24px;
     font-weight: normal;
 }
+.addition{background: #7a0f7a;
+    color: white;
+    margin: 0;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: normal;
+}
+button{
+    font-size: 20px;
+    background-color: white;
+    color: purple;
+}
+#completed {display:inline-block;margin-right:80px; } 
+#archived {display:inline-block;padding-left: 15px} 
 
+.fa-plus{
+    float: right;
+}
+.fa-trash{
+    color: purple;
+}
 ul{
     list-style: none;
     margin: 0;
-    pa
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
+
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+
+li:nth-child(2n){
+    background: #f7d7f7;
+}
+input{
+    font-size: 18px;
+    background-color:  #f7d7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    color:#7a0f7a;
+}
+
+input:focus{
+    background: rgba(252, 250, 251, 0.226);
+    border: 3px solid #7a0f7a;
+    outline: none;
+}
+
+
 #container{
-    box-shadow: 0 0 300px rgba(87, 0, 180, 5);
+    box-shadow: 0 0 150px rgba(87, 0, 180, 5);
     width: 360px;
     margin: 100px auto;
     background:#f7f7f7;
@@ -26,3 +82,5 @@ ul{
     text-decoration: line-through;
 
 }
+#sortable-1 { list-style-type: none; margin: 0; 
+    padding: 0; width: 100%; }

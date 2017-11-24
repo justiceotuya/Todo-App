@@ -1,7 +1,10 @@
 //check off specific todos by clicking
 $("ul").on("click", "li", function(){
     $(this).toggleClass("change");
+    
 });
+
+$( "li" ).sortable();
 
 //fading and deleting a todo item
 $("ul").on("click","span", function(event){
@@ -15,13 +18,13 @@ $("ul").on("click","span", function(event){
 $("input").keypress(function (e) {
     if(e.which == 13){
         //grabbing new todo text from input and creating a new li
-        $("ul").append("<li><span>x</span> " + $(this).val() + "</li>");
+        $("ul").append("<li><span class='deleteButton'><i class='fa fa-trash' aria-hidden='true'></i></span> " + $(this).val() + "</li>");
         
         //clearing value from input box
         $("input").val(" ");
-    
-    
     }
     
 });
+
+
 

@@ -6,22 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Todo App</title>
     <link rel="stylesheet" href="Todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
 </head>
 <body>
     <div id="container">
-    <h1>Todo List</h1>
-    <input type="text">
+    <h1 id="main">Todo List<i class="fa fa-plus" aria-hidden="true"></i></h1>
+    <input type="text" placeholder="Add New Todo">
     
-    
-        <ul>
-            <li><span class="deleteButton">x</span> Bottle</li>  
-            <li><span class="deleteButton">x</span> Pen</li>  
-            <li><span class="deleteButton">x</span> Biro</li>  
-            <li><span class="deleteButton">x</span> Bick</li>  
-            <li><span class="deleteButton">x</span> shirt</li>  
-            <li><span class="deleteButton">x</span> Bag</li>  
+
+        <ul id = "sortable-1">
+            <li><span class="deleteButton"><i class="fa fa-trash" aria-hidden="true"></i></span> Bottle</li>  
+            <li><span class="deleteButton"><i class="fa fa-trash" aria-hidden="true"></i></span> Pen</li>  
+            <li><span class="deleteButton"><i class="fa fa-trash" aria-hidden="true"></i></span> Biro</li>  
+            <li><span class="deleteButton"><i class="fa fa-trash" aria-hidden="true"></i></span> Bick</li>  
+            <li><span class="deleteButton"><i class="fa fa-trash" aria-hidden="true"></i></span> shirt</li>  
+            <li><span class="deleteButton"><i class="fa fa-trash" aria-hidden="true"></i></span> Bag</li>  
         </ul>
+        <div class="addition">
+            <button id="completed">  Completed  <i class="fa fa-list" aria-hidden="true"></i></button>
+            <button id="archived">  Archived  <i class="fa  fa-archive" aria-hidden="true"></i></button>
+        </div>
+        
+        
     <div>
         
     </div>    
