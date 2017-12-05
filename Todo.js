@@ -25,6 +25,10 @@ $("input").keypress(function (e) {
     }
     
 });
-
+ 
+//toggle fa-plus
+$('.fa-plus').click(function(){
+    $("input").fadeToggle();
+});
 
 
